@@ -7,7 +7,7 @@ cask "bearnyterm" do
   desc "Native macOS terminal with an integrated AI agent"
   homepage "https://github.com/michael-grunewalder/homebrew-bearnyterm"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "BearnyTerm.app"
 
