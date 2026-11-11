@@ -11,11 +11,7 @@ brew install --cask bearnyterm
 ```
 
 The current build is signed with Apple Development and is not notarized. If macOS blocks the
-first launch, allow BearnyTerm in System Settings → Privacy & Security, or install without the
-quarantine flag:
-
-```sh
-brew install --cask --no-quarantine bearnyterm
-```
+first launch, right-click BearnyTerm in Applications and choose Open, or allow it under
+System Settings → Privacy & Security.
 
 Requires macOS 15 or later.

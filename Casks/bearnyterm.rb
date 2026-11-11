@@ -13,9 +13,8 @@ cask "bearnyterm" do
 
   caveats <<~EOS
     This build is signed with an Apple Development certificate and is not notarized.
-    macOS may block the first launch. Allow BearnyTerm in System Settings → Privacy & Security,
-    or reinstall with:
-      brew install --cask --no-quarantine bearnyterm
+    On first launch, macOS may block BearnyTerm. If it does, right-click the app in Applications
+    and choose Open, or allow it under System Settings → Privacy & Security.
   EOS
 
   zap trash: [
